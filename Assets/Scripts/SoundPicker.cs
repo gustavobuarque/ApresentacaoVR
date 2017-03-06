@@ -7,7 +7,6 @@ public class SoundPicker : MonoBehaviour {
     public AudioSource audioSource;
     public AudioClip[] soundList;
 
-
 	// Use this for initialization
 	void Start () {
 		
