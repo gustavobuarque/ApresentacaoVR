@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ChangeScene : MonoBehaviour {
+public class ChangeScene : MonoBehaviour
+{
     public string _scene = "inicio";
 
     public void GotoScene()
     {
-            SceneManager.LoadScene(_scene);
+        SceneManager.LoadScene(_scene);
     }
 
 }
