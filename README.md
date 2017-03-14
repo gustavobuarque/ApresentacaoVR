@@ -22,6 +22,8 @@ Para esse projeto foi utilizado a versão do Google Cardboard SDK 1.0.3.
 
 Todos os modelos desse projeto, exceto as árvores, skybox e o dinossauro foram construídos por mim no ScketchUp.
 
+Triceratops - por CoffyCup - SketchUp
+
 English
 
 The goal of this project is to show the VR possibilities.

@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: c34df7bb8887e994fb385004ab930f2f
+timeCreated: 1489174311
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b000000
+  assetHash:
+    serializedVersion: 2
+    Hash: ba99a16dd19122be74643d0d71ce1ab5
+  longitude: -47.917
+  latitude: -15.783
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -6.244911, y: 3.188152, z: -3.2768662}
+      lookAt: {x: 5.4543962, y: -2.131795, z: 2.034351}
+      up: {x: 0.34834176, y: 0.9239319, z: 0.15813915}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Body
+    100002: Group 6
+    100004: Head
+    100006: Larm
+    100008: Lfoot
+    100010: Lhand
+    100012: Lleg
+    100014: Neck
+    100016: Rarm
+    100018: Rfoot
+    100020: Rhand
+    100022: Rleg
+    100024: Tail
+    100026: Triceratops
+    100028: //RootNode
+    400000: Body
+    400002: Group 6
+    400004: Head
+    400006: Larm
+    400008: Lfoot
+    400010: Lhand
+    400012: Lleg
+    400014: Neck
+    400016: Rarm
+    400018: Rfoot
+    400020: Rhand
+    400022: Rleg
+    400024: Tail
+    400026: Triceratops
+    400028: //RootNode
+    2300000: Body
+    2300002: Group 6
+    2300004: Head
+    2300006: Larm
+    2300008: Lfoot
+    2300010: Lhand
+    2300012: Lleg
+    2300014: Neck
+    2300016: Rarm
+    2300018: Rfoot
+    2300020: Rhand
+    2300022: Rleg
+    2300024: Tail
+    3300000: Body
+    3300002: Group 6
+    3300004: Head
+    3300006: Larm
+    3300008: Lfoot
+    3300010: Lhand
+    3300012: Lleg
+    3300014: Neck
+    3300016: Rarm
+    3300018: Rfoot
+    3300020: Rhand
+    3300022: Rleg
+    3300024: Tail
+    4300000: Mesh Body
+    4300002: Mesh Head
+    4300004: Mesh Group 6
+    4300006: Mesh Neck
+    4300008: Mesh Rarm
+    4300010: Mesh Rhand
+    4300012: Mesh Rleg
+    4300014: Mesh Rfoot
+    4300016: Mesh Lfoot
+    4300018: Mesh Lhand
+    4300020: Mesh Lleg
+    4300022: Mesh Larm
+    4300024: Mesh Tail
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

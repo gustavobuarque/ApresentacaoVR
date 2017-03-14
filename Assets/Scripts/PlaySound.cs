@@ -9,14 +9,14 @@ public class PlaySound : MonoBehaviour {
     public void StartSound()
     {
         Debug.Log("Start");
-        audioHolder.GetComponent<GvrAudioSource>().Play();
+        audioHolder.GetComponent<AudioSource>().Play();
         canvasHolder.SetActive(false);
     }
 
     public void StopSound()
     {
-        Debug.Log("Stop");
-        audioHolder.GetComponent<GvrAudioSource>().Pause();
+        Debug.Log("Pause");
+        audioHolder.GetComponent<AudioSource>().Stop();
         canvasHolder.SetActive(true);
     }
 }
