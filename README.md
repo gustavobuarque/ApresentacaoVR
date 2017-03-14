@@ -1,4 +1,9 @@
-Portuguese-BR
+Portuguese-BR - v2
+Modificado o tema para focar específicamente nos dinossauros.
+
+
+-------------
+Portuguese-BR - v1
 
 Esse projeto tem o objetivo de apresentar as possibilidades da Realidade Virtual.
 
@@ -15,14 +20,13 @@ Os desafios desse projeto foram:
 
 Plugins:
 + AVPRO
-+ RealtimeReflections
 + StreetViewSkyboxes
 
 Para esse projeto foi utilizado a versão do Google Cardboard SDK 1.0.3.
 
 Todos os modelos desse projeto, exceto as árvores, skybox e o dinossauro foram construídos por mim no ScketchUp.
-
-Triceratops - por CoffyCup - SketchUp
+Imagens e Videos utilizados foram retirados da internet.
+Audio gravado por mim.
 
 English
 
@@ -42,9 +46,10 @@ Chalenges:
 
 Plugins:
 + AVPRO
-+ RealtimeReflections
 + StreetViewSkyboxes
 
 I used Google Cardboard SDK 1.0.3 for this project.
 
 All models, except the trees, skybox and dinossaur, was made by me in ScketchUp.
+Images and Videos used in this project are from internet.
+Recorded Audio, my voice
