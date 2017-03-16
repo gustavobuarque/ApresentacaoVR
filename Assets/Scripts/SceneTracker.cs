@@ -4,37 +4,29 @@ using UnityEngine;
 
 public class SceneTracker : MonoBehaviour
 {
+    public GameObject _camera;
+    static public bool isReturning = false;
+    static public float _x;
+    static public float _y;
+    static public float _z;
+    //static public string currentScene = "inicio";
 
-    //static public bool isReturning = false;
-    static public string currentScene = "inicio";
-    public string currentScene1;
-    public string currentScene2;
-    public string currentScene3;
-
-
-	void Awake ()
+    void Awake ()
 	{
-		DontDestroyOnLoad (gameObject);
+        DontDestroyOnLoad (gameObject);
 	}
 
-	/*public void ToggleState ()
+	public void ToggleState ()
 	{
-		isReturning = true;
-	}*/
+        isReturning = true;
 
-    public void SetCurrentScene1()
-    {
-        currentScene = currentScene1;
-    }
-
-    public void SetCurrentScene2()
-    {
-        currentScene = currentScene2;
-    }
-
-    public void SetCurrentScene3()
-    {
-        currentScene = currentScene3;
+        Debug.Log("ToogleState");
+        Debug.Log(_camera.transform.position.x);
+        Debug.Log(_camera.transform.position.y);
+        Debug.Log(_camera.transform.position.z);
+        _x = _camera.transform.position.x;
+        _y = _camera.transform.position.y;
+        _z = _camera.transform.position.z;
     }
 
 }
