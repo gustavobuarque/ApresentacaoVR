@@ -53,7 +53,7 @@ public class SceneTracker : MonoBehaviour
         _rx = _camera.transform.rotation.x;
         _ry = _camera.transform.rotation.y;
         _rz = _camera.transform.rotation.z;
-        Debug.Log("RX: " + _rx + "RY: " + _ry + "RZ: " + _rz);
+        Debug.Log("ToogleState RX: " + _rx + "RY: " + _ry + "RZ: " + _rz);
         
         
     }
