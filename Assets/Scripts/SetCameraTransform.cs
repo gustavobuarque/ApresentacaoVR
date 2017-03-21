@@ -11,20 +11,9 @@ public class SetCameraTransform : MonoBehaviour
 	{
         if (SceneTracker.isReturning) {
             transform.position = new Vector3(SceneTracker._x, SceneTracker._y, SceneTracker._z);
-            transform.rotation = Quaternion.Euler(0f, 120f, 0f);
+            transform.rotation = Quaternion.Euler(SceneTracker._rx, SceneTracker._ry, SceneTracker._rz);
             _canvasInicio.SetActive(false);
-            
-            //Do not allow duplicate Scenetracker Objects in the scene
-            if(SceneTracker.instanceId > SceneTracker.instanceId2)
-            {
-                Object obj = EditorUtility.InstanceIDToObject(SceneTracker.instanceId2);
-                if (!obj)
-                    Debug.LogError("No object could be found with instance id: " + SceneTracker.instanceId2);
-                else
-                    Debug.Log("Object's name: " + obj.name);
-                    SceneTracker.Destroy(obj);
-            }
-            
+            Debug.Log("RX: " + SceneTracker._rx + "RY: " + SceneTracker._ry + "RZ: " + SceneTracker._rz);
         }
 
     }
