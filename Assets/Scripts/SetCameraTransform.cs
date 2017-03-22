@@ -12,8 +12,6 @@ public class SetCameraTransform : MonoBehaviour
             transform.position = new Vector3(SceneTracker._x, SceneTracker._y, SceneTracker._z);
             GetComponentInChildren<Transform>().transform.rotation = Quaternion.Euler(SceneTracker._rx, SceneTracker._ry, SceneTracker._rz);
             _canvasInicio.SetActive(false);
-            Debug.Log("SetCameta RX: " + SceneTracker._rx + "RY: " + SceneTracker._ry + "RZ: " + SceneTracker._rz);
-            Debug.Log(GetComponentInChildren<Transform>().transform.rotation);
         }
 
     }

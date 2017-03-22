@@ -50,10 +50,10 @@ public class SceneTracker : MonoBehaviour
         _x = _camera.transform.position.x;
         _y = _camera.transform.position.y;
         _z = _camera.transform.position.z;
-        _rx = _camera.transform.rotation.x;
-        _ry = _camera.transform.rotation.y;
-        _rz = _camera.transform.rotation.z;
-        Debug.Log("ToogleState RX: " + _rx + "RY: " + _ry + "RZ: " + _rz);
+
+        _rx = _camera.transform.rotation.eulerAngles.x;
+        _ry = _camera.transform.rotation.eulerAngles.y;
+        _rz = _camera.transform.rotation.eulerAngles.z;
         
         
     }
